@@ -209,7 +209,7 @@ export default function LandingPage() {
           </h2>
           
           <p className="text-xl text-white/70 mb-10 max-w-2xl mx-auto">
-            Junte-se a milhares de pessoas que já alcançaram seus objetivos com o FitProMax
+            Junte-se a várias pessoas que já alcançaram seus objetivos com o FitProMax
           </p>
 
           <button 
