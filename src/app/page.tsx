@@ -50,8 +50,46 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Pain Points Section */}
+      <section className="py-20 sm:py-32 bg-black border-t border-white/10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="space-y-8">
+            {/* Pain Points - Questions */}
+            <div className="space-y-6">
+              <h2 className="text-3xl sm:text-4xl font-bold text-white/90 leading-tight">
+                Cansado de treinar e não ver resultado?
+              </h2>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white/90 leading-tight">
+                Não saber o que comer?
+              </h2>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white/90 leading-tight">
+                Não saber quantas calorias tem na sua refeição?
+              </h2>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white/90 leading-tight">
+                Seguir dietas genéricas que não funcionam pro seu objetivo?
+              </h2>
+            </div>
+
+            {/* Divider */}
+            <div className="py-8">
+              <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+            </div>
+
+            {/* Answer - The Truth */}
+            <div className="text-center space-y-4">
+              <p className="text-xl sm:text-2xl text-white leading-relaxed">
+                A maioria das pessoas não falha por falta de esforço.
+              </p>
+              <p className="text-2xl sm:text-3xl font-bold text-white leading-relaxed">
+                Falha por falta de estratégia e direção.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* App Screenshots Section - Destaque Principal */}
-      <section className="py-20 sm:py-32 bg-black">
+      <section className="py-20 sm:py-32 bg-black border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-5xl font-bold mb-4 text-white">
