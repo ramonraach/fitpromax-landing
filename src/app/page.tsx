@@ -62,21 +62,6 @@ export default function LandingPage() {
 
           {/* Screenshots em Destaque - Layout Moderno */}
           <div className="relative">
-            {/* Screenshot Central em Destaque - MENOR */}
-            <div className="flex justify-center mb-8">
-              <div className="relative w-full max-w-xs">
-                <div className="absolute -inset-4 bg-white/5 rounded-3xl blur-2xl" />
-                <div className="relative aspect-[9/16] rounded-3xl overflow-hidden border border-white/20 shadow-2xl shadow-white/10">
-                  <Image
-                    src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/94d00c32-ad19-4cf8-8dab-cb94575704f1.jpg"
-                    alt="Dashboard FitProMax"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-
             {/* Screenshots Secundários - SEM LEGENDAS */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto">
               <div className="group relative aspect-[9/16] rounded-2xl overflow-hidden border border-white/10 hover:border-white/30 transition-all duration-300 hover:scale-105">
