@@ -36,60 +36,13 @@ export default function LandingPage() {
 
             {/* CTA Button */}
             <div className="pt-4">
-              <button 
+              <button
                 onClick={handleRedirect}
                 className="group px-10 py-5 bg-white text-black rounded-full font-bold text-lg hover:bg-white/90 transition-all duration-300 shadow-2xl shadow-white/20 inline-flex items-center gap-3"
               >
                 Começar Transformação
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
-            </div>
-
-            {/* Social Proof - COM ROSTOS E ESTRELAS AMARELAS */}
-            <div className="flex items-center justify-center gap-8 pt-8 text-sm text-white/60">
-              <div className="flex items-center gap-2">
-                <div className="flex -space-x-2">
-                  <div className="relative w-8 h-8 rounded-full border-2 border-black overflow-hidden">
-                    <Image
-                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
-                      alt="Usuário 1"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative w-8 h-8 rounded-full border-2 border-black overflow-hidden">
-                    <Image
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
-                      alt="Usuário 2"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative w-8 h-8 rounded-full border-2 border-black overflow-hidden">
-                    <Image
-                      src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
-                      alt="Usuário 3"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative w-8 h-8 rounded-full border-2 border-black overflow-hidden">
-                    <Image
-                      src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop"
-                      alt="Usuário 4"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                </div>
-                <span>+50k usuários ativos</span>
-              </div>
-              <div className="flex items-center gap-1">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <Star key={i} className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                ))}
-                <span className="ml-2 text-white/80">4.9/5.0</span>
-              </div>
             </div>
           </div>
         </div>
