@@ -212,13 +212,18 @@ export default function LandingPage() {
             Junte-se a várias pessoas que já alcançaram seus objetivos com o FitProMax
           </p>
 
-          <button 
-            onClick={handleRedirect}
-            className="group px-12 py-6 bg-white text-black rounded-full font-bold text-xl hover:bg-white/90 transition-all duration-300 shadow-2xl shadow-white/20 inline-flex items-center gap-3"
-          >
-            Começar Transformação
-            <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-          </button>
+          <div className="flex flex-col items-center gap-3">
+            <button
+              onClick={handleRedirect}
+              className="group px-12 py-6 bg-white text-black rounded-full font-bold text-xl hover:bg-white/90 transition-all duration-300 shadow-2xl shadow-white/20 inline-flex items-center gap-3"
+            >
+              Começar Teste Gratuito
+              <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+            </button>
+            <p className="text-sm text-white/50">
+              3 dias grátis. Depois R$ 9,90/mês. Sem taxas ocultas.
+            </p>
+          </div>
         </div>
       </section>
 
