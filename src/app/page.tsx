@@ -34,14 +34,17 @@ export default function LandingPage() {
             </p>
 
             {/* CTA Button */}
-            <div className="pt-4">
+            <div className="pt-4 flex flex-col items-center gap-2">
               <button
                 onClick={handleRedirect}
                 className="group px-10 py-5 bg-white text-black rounded-full font-bold text-lg hover:bg-white/90 transition-all duration-300 shadow-2xl shadow-white/20 inline-flex items-center gap-3"
               >
-                Começar Transformação
+                Começar Teste Gratuito
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
+              <p className="text-sm text-white/60">
+                3 dias grátis. Depois R$ 9,90/mês. Cancele quando quiser.
+              </p>
             </div>
           </div>
         </div>
