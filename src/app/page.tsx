@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function LandingPage() {
   const handleRedirect = () => {
-    window.open("https://fitpromax-oficial.lasy.pro", "_blank");
+    window.open("https://fit-pro-max-app.vercel.app", "_blank");
   };
 
   return (
