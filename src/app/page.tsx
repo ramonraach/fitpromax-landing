@@ -54,20 +54,39 @@ export default function LandingPage() {
       <section className="py-20 sm:py-32 bg-black border-t border-white/10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-8">
+            {/* Title */}
+            <div className="text-center mb-12">
+              <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
+                Você se identifica com alguma dessas situações?
+              </h2>
+            </div>
+
             {/* Pain Points - Questions */}
             <div className="space-y-6">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white/90 leading-tight">
-                Cansado de treinar e não ver resultado?
-              </h2>
-              <h2 className="text-3xl sm:text-4xl font-bold text-white/90 leading-tight">
-                Não saber o que comer?
-              </h2>
-              <h2 className="text-3xl sm:text-4xl font-bold text-white/90 leading-tight">
-                Sem ideia de quantas calorias consome?
-              </h2>
-              <h2 className="text-3xl sm:text-4xl font-bold text-white/90 leading-tight">
-                Seguir dietas genéricas que não funcionam pro seu objetivo?
-              </h2>
+              <div className="flex items-start gap-4">
+                <div className="w-2 h-2 rounded-full bg-white/90 mt-3 flex-shrink-0"></div>
+                <h3 className="text-2xl sm:text-3xl font-bold text-white/90 leading-tight">
+                  Cansado de treinar e não ver resultado?
+                </h3>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="w-2 h-2 rounded-full bg-white/90 mt-3 flex-shrink-0"></div>
+                <h3 className="text-2xl sm:text-3xl font-bold text-white/90 leading-tight">
+                  Não saber o que comer?
+                </h3>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="w-2 h-2 rounded-full bg-white/90 mt-3 flex-shrink-0"></div>
+                <h3 className="text-2xl sm:text-3xl font-bold text-white/90 leading-tight">
+                  Sem ideia de quantas calorias consome?
+                </h3>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="w-2 h-2 rounded-full bg-white/90 mt-3 flex-shrink-0"></div>
+                <h3 className="text-2xl sm:text-3xl font-bold text-white/90 leading-tight">
+                  Seguir dietas genéricas que não funcionam pro seu objetivo?
+                </h3>
+              </div>
             </div>
 
             {/* Divider */}
