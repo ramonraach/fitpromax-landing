@@ -221,7 +221,7 @@ export default function LandingPage() {
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </button>
             <p className="text-sm text-white/50">
-              3 dias grátis. Depois R$ 9,90/mês. Sem taxas ocultas.
+              3 dias grátis. Depois R$ 19,90/mês. Sem taxas ocultas.
             </p>
           </div>
         </div>
