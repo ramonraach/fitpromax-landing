@@ -63,7 +63,7 @@ export default function LandingPage() {
                 Não saber o que comer?
               </h2>
               <h2 className="text-3xl sm:text-4xl font-bold text-white/90 leading-tight">
-                Não saber quantas calorias tem na sua refeição?
+                Sem ideia de quantas calorias consome?
               </h2>
               <h2 className="text-3xl sm:text-4xl font-bold text-white/90 leading-tight">
                 Seguir dietas genéricas que não funcionam pro seu objetivo?
