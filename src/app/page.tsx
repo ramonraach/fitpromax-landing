@@ -22,16 +22,15 @@ export default function LandingPage() {
 
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight text-white">
-              Transforme Seu Corpo
+              Treino e Dieta
               <br />
               <span className="text-white/90">
-                Com Inteligência Artificial
+                Personalizados em Minutos
               </span>
             </h1>
 
             <p className="text-lg sm:text-xl text-white/70 max-w-2xl mx-auto leading-relaxed">
-              Treinos personalizados, dieta sob medida e scanner de calorias em tempo real. 
-              Tudo que você precisa para alcançar seus objetivos fitness.
+              Treinos personalizados, dieta sob medida e scanner de calorias. Tudo que você precisa para alcançar seu objetivo: emagrecer, definir ou ganhar massa muscular.
             </p>
 
             {/* CTA Button */}
