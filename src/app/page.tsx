@@ -153,97 +153,46 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Testimonials Section - COM FOTOS E CORES */}
+      {/* Principles Section */}
       <section className="py-20 sm:py-32 bg-black border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-5xl font-bold mb-4 text-white">
-              O Que Nossos Usuários Dizem
-            </h2>
-            <p className="text-white/60 text-lg">
-              Histórias reais de transformação
-            </p>
-          </div>
-
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Depoimento 1 - Verde */}
-            <div className="p-8 rounded-2xl border border-emerald-500/30 bg-gradient-to-br from-emerald-500/10 to-transparent hover:border-emerald-500/50 transition-all duration-300">
-              <div className="flex items-center gap-1 mb-4">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <Star key={i} className="w-4 h-4 text-emerald-400 fill-emerald-400" />
-                ))}
-              </div>
-              <Quote className="w-8 h-8 text-emerald-400/30 mb-4" />
-              <p className="text-white/90 mb-6 leading-relaxed">
-                "Perdi 15kg em 4 meses seguindo o plano do FitProMax. O scanner de calorias mudou completamente minha relação com a comida. Nunca imaginei que seria tão fácil manter o foco!"
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-emerald-400/50">
-                  <Image
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
-                    alt="Marina Silva"
-                    fill
-                    className="object-cover"
-                  />
+            {/* Card 1 */}
+            <div className="group relative p-8 rounded-2xl border border-white/10 bg-white/5 hover:border-white/20 transition-all duration-300">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl" />
+              <div className="relative">
+                <div className="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center mb-6">
+                  <Target className="w-6 h-6 text-blue-400" />
                 </div>
-                <div>
-                  <p className="font-semibold text-white">Marina Silva</p>
-                  <p className="text-sm text-white/50">São Paulo, SP</p>
-                </div>
+                <p className="text-xl font-semibold text-white leading-relaxed">
+                  Baseado em princípios de treino progressivo e controle calórico
+                </p>
               </div>
             </div>
 
-            {/* Depoimento 2 - Azul */}
-            <div className="p-8 rounded-2xl border border-cyan-500/30 bg-gradient-to-br from-cyan-500/10 to-transparent hover:border-cyan-500/50 transition-all duration-300">
-              <div className="flex items-center gap-1 mb-4">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <Star key={i} className="w-4 h-4 text-cyan-400 fill-cyan-400" />
-                ))}
-              </div>
-              <Quote className="w-8 h-8 text-cyan-400/30 mb-4" />
-              <p className="text-white/90 mb-6 leading-relaxed">
-                "Como pai de dois filhos, não tinha tempo pra academia. Os treinos personalizados de 30 minutos em casa foram perfeitos. Ganhei massa e disposição que não tinha há anos!"
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-cyan-400/50">
-                  <Image
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
-                    alt="Carlos Mendes"
-                    fill
-                    className="object-cover"
-                  />
+            {/* Card 2 */}
+            <div className="group relative p-8 rounded-2xl border border-white/10 bg-white/5 hover:border-white/20 transition-all duration-300">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl" />
+              <div className="relative">
+                <div className="w-12 h-12 rounded-xl bg-emerald-500/20 flex items-center justify-center mb-6">
+                  <Zap className="w-6 h-6 text-emerald-400" />
                 </div>
-                <div>
-                  <p className="font-semibold text-white">Carlos Mendes</p>
-                  <p className="text-sm text-white/50">Rio de Janeiro, RJ</p>
-                </div>
+                <p className="text-xl font-semibold text-white leading-relaxed">
+                  Plano estratégico criado em minutos com base no seu perfil
+                </p>
               </div>
             </div>
 
-            {/* Depoimento 3 - Verde/Azul */}
-            <div className="p-8 rounded-2xl border border-teal-500/30 bg-gradient-to-br from-teal-500/10 to-transparent hover:border-teal-500/50 transition-all duration-300">
-              <div className="flex items-center gap-1 mb-4">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <Star key={i} className="w-4 h-4 text-teal-400 fill-teal-400" />
-                ))}
-              </div>
-              <Quote className="w-8 h-8 text-teal-400/30 mb-4" />
-              <p className="text-white/90 mb-6 leading-relaxed">
-                "Já tentei vários apps, mas o FitProMax é diferente. A dieta personalizada respeita minhas restrições alimentares e o app me mantém motivada todos os dias. Resultado: -12kg e muito mais saúde!"
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-teal-400/50">
-                  <Image
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
-                    alt="Juliana Costa"
-                    fill
-                    className="object-cover"
-                  />
+            {/* Card 3 */}
+            <div className="group relative p-8 rounded-2xl border border-white/10 bg-white/5 hover:border-white/20 transition-all duration-300">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 rounded-full blur-3xl" />
+              <div className="relative">
+                <div className="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center mb-6">
+                  <Star className="w-6 h-6 text-purple-400" />
                 </div>
-                <div>
-                  <p className="font-semibold text-white">Juliana Costa</p>
-                  <p className="text-sm text-white/50">Belo Horizonte, MG</p>
-                </div>
+                <p className="text-xl font-semibold text-white leading-relaxed">
+                  Sistema inteligente de evolução física, tenha o corpo que sempre sonhou
+                </p>
               </div>
             </div>
           </div>
