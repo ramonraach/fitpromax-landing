@@ -56,9 +56,11 @@ export default function LandingPage() {
           <div className="space-y-8">
             {/* Title */}
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
-                Você se identifica com alguma dessas situações?
-              </h2>
+              <div className="inline-block px-8 py-6 bg-zinc-800/60 backdrop-blur-sm rounded-3xl border border-zinc-700/50 shadow-2xl shadow-zinc-900/50">
+                <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
+                  Você se identifica com alguma dessas situações?
+                </h2>
+              </div>
             </div>
 
             {/* Pain Points - Questions */}
@@ -96,12 +98,14 @@ export default function LandingPage() {
 
             {/* Answer - The Truth */}
             <div className="text-center space-y-4">
-              <p className="text-xl sm:text-2xl text-white leading-relaxed">
-                A maioria das pessoas não falha por falta de esforço.
-              </p>
-              <p className="text-2xl sm:text-3xl font-bold text-white leading-relaxed">
-                Falha por falta de estratégia e direção.
-              </p>
+              <div className="inline-block px-10 py-8 bg-zinc-800/60 backdrop-blur-sm rounded-3xl border border-zinc-700/50 shadow-2xl shadow-zinc-900/50">
+                <p className="text-xl sm:text-2xl text-white leading-relaxed mb-3">
+                  A maioria das pessoas não falha por falta de esforço.
+                </p>
+                <p className="text-2xl sm:text-3xl font-bold text-white leading-relaxed">
+                  Falha por falta de estratégia e direção.
+                </p>
+              </div>
             </div>
           </div>
         </div>
